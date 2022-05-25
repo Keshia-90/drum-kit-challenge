@@ -10,40 +10,76 @@
 <body>
     <h1>Drum Kit Challenge</h1>
     <h2>Press a Key or Click a Button</h2>
-<div id = "keys">
-    <ul>
-        <li class = "boom">A
-        <p>Boom</p>
+        <ul id = "sec1">
+        <div data-key="65" id="bDrum">
+        <li>Boom
+        <p>A</p>
+        <!-- keycode65 -->
+        <audio id = "boomD" src = "sounds\boom.wav"></audio>
     </li>
-        <li class = "clap">S
-        <p>Clap</p>
+        </div>
+        <div data-key="83" id="cDrum"> 
+        <li>Clap
+        <p>S</p>
+        <!-- keycode83 -->
+        <audio id = "clapD" src = "sounds\clap.wav"></audio>
+    </div>
     </li>
-        <li class = "HiHat">D
-        <p>HiHat</p>
+    <div data-key="68" id="hDrum">
+        <li>HiHat
+        <p>D</p>
+        <!-- keycode68 -->
+        <audio id = "hiHatD" src = "sounds\hihat.wav"></audio>
     </li>
+</div>
     </ul>
-    <ul>
-        <li class = "Kick">F
-        <p>Kick</p>
+    <ul id="sec2">
+        <div data-key="70" id="kDrum">
+        <li>Kick
+        <p>F</p>
+        <!-- keycode70 -->
+        <audio id = "kickD" src = "sounds/kick.wav"></audio>
     </li>
-        <li class = "OpenHat">G
-        <p>OpenHat</p>
+</div>
+<div data-key="71" id="oDrum">
+        <li>OpenHat
+        <p>G</p>
+        <!-- keycode71 -->
+        <audio id = "openHatD" src = "sounds/openhat.wav"></audio>
     </li>
-        <li class = "Ride">H
-        <p>Ride</p>
+</div>
+<div data-key="72" id="rDrum">
+        <li>Ride
+        <p>H</p>
+        <!-- keycode72 -->
+        <audio id = "rideD" src = "sounds/ride.wav"></audio>
     </li>
+</div>
     </ul>
-    <ul>
-        <li Class = "Snare">J
-        <p>Snare</p>
+    <ul id="sec3">
+        <div data-key="74" id="sDrum">
+        <li>Snare
+        <p>J</p>
+        <!-- keycode74 -->
+        <audio id = "snareD" src = "sounds/snare.wav"></audio>
     </li>
-        <li class = "Tink">K
-        <p>Tink</p>
+</div>
+<div data-key="75" id="tDrum">
+        <li>Tink
+        <p>K</p>
+        <!-- keycode75 -->
+        <audio id = "tinkD" src = "sounds/tink.wav"></audio>
     </li>
-        <li class = "Tom">L
-        <p>Tom</p>
+</div>
+<div data-key="76" id="toDrum">
+        <li>Tom
+        <p>L</p>
+        <!-- keycode76 -->
+        <audio id = "tomD" src = "sounds/tom.wav"></audio>
     </li>
+</div>
     </ul>
 </div>
+<script src = "./app.js"></script>
 </body>
 </html>
